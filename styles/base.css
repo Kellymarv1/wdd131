@@ -12,15 +12,6 @@
     padding:0
 }
 
-@font-face {
-    font-family: 'Montserrat Alternates';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/montserratalternates/v18/mFTvWacfw6zH4dthXcyms1lPpC8I_b0juU055qfQOJ0.woff2) format('woff2');
-    unicode-range: U +0460 -052F, U +1C80 -1C8A, U +20B4, U +2DE0 -2DFF, U + A640-A69F, U + FE2E-FE2F;
-}
-
 html {
     display:block
 }
