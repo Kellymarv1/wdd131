@@ -3,11 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD131</title>
+    <title>WDD131 : Web Development and Design Fundamentals</title>
     <meta name="description" content="WDD131 - Web Development and Design Fundamentals">
     <meta name="author" content="Kehinde Marvellous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    
+    <header>        
+        <span id="course-title">WDD131: Web Development and Design Fundamentals</span>
+        <nav>
+            <a href="https://linkedin.com/in/kehinde-marvellous">Linked IN</a>
+            <a href="https://byupw.instructure.com/">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/ps/51?lang=eng">Scripture</a>
+            <a href="https">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Kehinde M. Kehinde</h1>
+
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="me">
+                <img class="profile" 
+                    src="images/profile.jpg" alt="Student Profile Image" width="200" height="136">
+                <p>My name is Kehinde Marvellous i go by Kenny. I was born in Nigeria and raised in Nigera also. I am a student at BYU-Idaho, studying Web Development and Design Fundamentals. My Family are my world and i love to play video games and travel.</p>
+            </div>
+
+            <div class="country">
+                <h3>Ondo, Nigeria</h3>
+                <figure>
+                    <img src="https://cdn.britannica.com/68/5068-050-53E22285/Flag-Nigeria.jpg" alt="Flag of Nigeria" width="200">
+                    <figcaption>Official Flag of Nigeria</figcaption>
+                </figure>
+                <p>Ondo State, nicknamed the "Sunshine State," is a vibrant region in southwestern Nigeria created in 1976. Governed from its capital city, Akure, it features 18 Local Government Areas and an economy heavily driven by cocoa farming, timber, and asphalt mining.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <div class="middle">
+              <ul>
+                <li>
+                    <a href="https://dev.to" target="_blank" rel="noopener noreferrer">Dev.to Community</a>
+                </li>
+                <li>
+                    <a href="https://www.smashingmagazine.com/" target="_blank" rel="noopener noreferrer">Smashing Magazine</a>
+                </li>
+                <li>
+                    <a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS-Tricks</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a>
+                </li>
+                <li>
+                    <a href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer">Udemy</a>
+                </li>
+                <li>
+                    <a href="https://www.picsum.photos/" target="_blank" rel="noopener noreferrer">Lorem Picsum Image Placeholder</a>
+                </li>
+               </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span>
+            🟢 Kehinde Marvellous Kehinde 🟢 Nigeria"</p>
+        <p class="highlight">
+        Last Modification: <span id="lastmodified"></span></p>
+    </footer>                   
 </body>
 </html>
