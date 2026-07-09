@@ -1,0 +1,9 @@
+@media and (min-width: 500px) {
+    h1 {
+        color:#fff;
+    }
+}
+
+main {
+    grid-template-columns: 1fr 1fr;
+}
