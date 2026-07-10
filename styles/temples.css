@@ -67,6 +67,7 @@ header {
     text-decoration: none;
     display: block;
     padding: 1rem;
+    font-size: large;
 }
 
 .navigation a:hover, .navigation a:active {
