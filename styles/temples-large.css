@@ -11,7 +11,11 @@
     }
 
     .navigation {
-        display: block
+        display: flex
+    }
+
+    .navigation li {
+        display: block;
     }
 
     .navigation ul {

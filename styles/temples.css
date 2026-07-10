@@ -9,6 +9,7 @@ header {
     background-color: rgb(49, 3, 96);
     color: #fff;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
@@ -20,50 +21,65 @@ header {
     font-size: 2rem;
     padding: 1.5rem;
     text-align: left;
-}    
+}  
 
 #menu {
     background-color: rgb(49, 3, 96);
     border: none;
     color: #fff;
     font-size: 2rem;
-    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
     margin-right: 15px;
 }
 
 #menu::before {
-    content: "\2630";
-}
-
-#menu.open::after {
-    content: "X" ;
+    content: "☰";
 }
 
 .navigation {
+    width: 100%;
     display: none;
+
 }
 
-.navigation.open {
-    display: flex;
+.navigation.show {
+    display: block;
 }
 
 .navigation ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 .navigation li {
+    display:block;
+    width: 100%;
     text-align: center;
-    padding: 10px;
 }
 
 .navigation a {
     color: #fff;
     text-decoration: none;
     display: block;
+    padding: 1rem;
+}
+
+.navigation a:hover, .navigation a:active {
+    color: #fff;
+    background-color: black;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X" ;
 }
 
 h1 {
