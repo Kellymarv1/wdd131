@@ -35,6 +35,15 @@ nav {
     display: none;
 }
 
+.navigation {
+    display: none;
+    flex-direction: column;
+}
+
+.navigation.open {
+    display: flex;
+}
+
 h1 {
     text-align: center;
     margin: 30px 0;
