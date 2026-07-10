@@ -39,6 +39,10 @@ header {
     content: "X" ;
 }
 
+.navigation {
+    display: none;
+}
+
 .navigation.open {
     display: flex;
 }
