@@ -1,15 +1,61 @@
-@media (min-width: 768px) {
+@media only screen and (min-width: 640px) {
     header {
-        flex-direction: column;
-        gap: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav {
+    display: block;
+    }
+
+    nav a {
+
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    }
+
+    nav a:hover {
+    text-decoration: underline;
+    border: 1px solid #fff;
     }
 
     nav ul {
-        flex-direction: column;
-        text-align: center;
+    list-style-type: none;
+    display: flex;  
+    gap: 25px;
+    }
+
+    nav ul li a {
+    padding: 2px 25px;
+    font-family: sans-serif
     }
 
     .gallery {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 900px;
+        margin: 0 auto;
     }
+
+    figure {
+        text-align: center;
+    }
+
+    figure img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+
 }
