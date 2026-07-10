@@ -5,7 +5,7 @@ const navigation = document.querySelector(".navigation");
 menubutton.addEventListener("click", () => {
     navigation.classList.toggle("show");
     menubutton.classList.toggle("show");
-});
+})
 
 
 const today = new Date();
