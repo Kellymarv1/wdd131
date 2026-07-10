@@ -32,11 +32,11 @@ header {
 }
 
 #menu::before {
-    content: "\2620";
+    content: "\2630";
 }
 
-#menu::after {
-    content: "\2716" ;
+#menu.open::after {
+    content: "X" ;
 }
 
 .navigation.open {
