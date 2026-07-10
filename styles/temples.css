@@ -31,17 +31,35 @@ header {
     margin-right: 15px;
 }
 
-nav {
-    display: none;
+#menu::before {
+    content: "\2620";
 }
 
-.navigation {
-    display: none;
-    flex-direction: column;
+#menu::after {
+    content: "\2716" ;
 }
 
 .navigation.open {
     display: flex;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation li {
+    text-align: center;
+    padding: 10px;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
 }
 
 h1 {
@@ -51,7 +69,7 @@ h1 {
 
 .gallery {
     display: grid;
-    grid-template-columns: 3, 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
     padding: 20px;
 }

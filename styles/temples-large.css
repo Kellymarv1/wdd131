@@ -3,7 +3,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 2rem;
+        padding: 0;
     }
 
     #menu {
@@ -11,8 +11,15 @@
     }
 
     .navigation {
+        display: block
+    }
+
+    .navigation ul {
         display: flex;
         flex-direction: row;
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
 
     nav {
@@ -34,11 +41,10 @@
     nav ul {
     list-style-type: none;
     display: flex;  
-    gap: 25px;
     }
 
     nav ul li a {
-    padding: 2px 25px;
+    padding: 2px 10px;
     font-family: sans-serif
     }
 
