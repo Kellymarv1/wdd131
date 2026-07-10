@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
