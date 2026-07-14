@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD131 - Media Query Example</title>
-    <meta name="description" content="This media query learning activity example page demonstrates responsive design with a temple gallery layout, mobile navigation.">
+    <title>WDD131 - Country Page</title>
+    <meta name="description" content="Discover the beauty of Nigeria">
     <meta name="author" content="Kehinde Marvellous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,5 +12,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-large.css">
+
     <script src="scripts/place.js" defer></script>
 </head>
+
+<body>
+    
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+    
+    <main>
+        <picture>
+            <source media="(min-width: 768px)" srcset="images/food-large.webp">
+            <img src="images/food-small.webp" alt="Delicious Jollof RIce" width="1200" height="700">
+        </picture>
+
+        <section class="data">
+            <h2>Data</h2>
+
+            <p><strong>Area:</strong> 923,768 km</p>
+            <p><strong>Population:</strong> 223 Million</p>
+            <p><strong>Capital:</strong> Abuja</p>
+            <p><strong>Language:</strong> English</p>
+            <p><strong>Currency:</strong> Nigerian Naira</p>
+            <p><strong>Time Zone:</strong> UTC +1</p>
+            <p><strong>Calling Zone:</strong> +234</p>
+            <p><strong>Internet TLD:</strong> .ng</p>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+
+            <img src="images/cloud.svg" alt="Weather Icon" class="weather-icon">
+
+            <p><strong>Temperature:</strong> <span id="temperature">8°C</span></p>
+            <p><strong>Conditions:</strong> Partly Cloudy</p>
+            <p><strong>Wind:</strong> <span id="windspeed">12 km/h</span></p>
+            <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span>
+      🟢 Kehinde Marvellous Kehinde 🟢 Nigeria</p>
+
+      <p class="highlight">
+        Last Modification: <span id="lastmodified"></span></p>
+    </footer>
+
+</body>
