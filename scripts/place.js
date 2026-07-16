@@ -1,9 +1,10 @@
 // Footer
-const currentYear = document.querySelector("#currentyear");
-const lastModified = document.querySelector("#lastModified");
+const today = new Date();
+const currentYear = today.getFullYear();
+const lastmodified = document.lastModified;
 
-currentYear.textContent = new Date().getFullYear();
-lastModified.textContent = `Last Modified: ${document.lastModified}`;
+document.getElementById("currentyear").textContent = currentYear;
+document.getElementById("lastmodified").textContent = lastmodified;
 
 // Static weather values
 const temperature = 8; // °C
