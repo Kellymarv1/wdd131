@@ -14,4 +14,19 @@ input[type="submit"] {
    padding: 1rem 2rem;
 }
 
+.rating {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 1rem;
+}
+
+.rating label {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   cursor: pointer;
+   font-size: 1.4rem;
+}
+
 }
