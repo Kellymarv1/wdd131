@@ -58,11 +58,6 @@ legend {
    font-weight: bold;
 }
 
-label {
-   display: block;
-   margin-bottom: .5rem;
-}
-
 input[type="text"],
 input[type="date"],
 select,
@@ -76,13 +71,6 @@ textarea {
 
 textarea {
    resize: vertical;
-}
-
-.rating label {
-   display: block;
-   font-size: 1.3rem;
-   margin-bottom: .4rem;
-   cursor: pointer;
 }
 
 input[type="checkbox"],
