@@ -23,7 +23,7 @@ main {
 }
 
 form {
-   background: rgb(228, 219, 219);
+   background: #ffff;
    padding: 1rem;
    border-radius: 8px;
 }
@@ -64,7 +64,7 @@ select,
 textarea {
    width: 100%;
    padding: .75rem;
-   border: 1px solid #bbb;
+   border: 1px solid #666;
    border-radius: 5px;
    font-size: 1rem;
 }
@@ -81,8 +81,8 @@ input[type="radio"] {
 input[type="submit"] {
    width: 100%;
    padding: .9rem;
-   background: #9a9c9f;
-   color: white;
+   background: #003366;
+   color: #ffff;
    border: none;
    border-radius: 6px;
    font-size: 1rem;
@@ -90,7 +90,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-   background: burlywood;
+   background: #001f4d;
 }
 
 footer p {
