@@ -29,35 +29,35 @@ const aiTools = [
    {
        name: "ChatGPT",
        category: "Writing",
-       image: "images/chatgpt.jpg",
+       image: "images/chatgpt.webp",
        description: "Excellent for writing, research, coding, brainstorming, and learning."
    },
 
    {
        name: "Gemini",
        category: "Research",
-       image: "images/gemini.jpg",
+       image: "images/gemini.webp",
        description: "Google's AI assistant for research, documents, and productivity."
    },
 
    {
        name: "Claude",
        category: "Writing",
-       image: "images/claude.jpg",
+       image: "images/claude.webp",
        description: "Known for long conversations, document analysis, and coding."
    },
 
    {
        name: "GitHub Copilot",
        category: "Coding",
-       image: "images/copilot.jpg",
+       image: "images/copilot.webp",
        description: "AI coding assistant that helps developers write code faster."
    },
 
    {
        name: "Midjourney",
        category: "Image",
-       image: "images/midjourney.jpg",
+       image: "images/midjourney.webp",
        description: "Generates high-quality AI artwork from text prompts."
    }
 
@@ -131,7 +131,7 @@ function displayFeaturedTools() {
                src="${tool.image}"
                alt="${tool.name}"
                width="600"
-               height=" 400"
+               height="400"
                loading="lazy">
 
            <div class="tool-info">
